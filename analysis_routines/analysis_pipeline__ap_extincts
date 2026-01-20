@@ -1,0 +1,51 @@
+*Training before bandit:*
+Just fetch data and look at summaries
+
+**1 - Fetch data**
+[Pull specific dates](pull_specific_dates__ap_extincts.py)
+- Edit line 10 to include mouse names and possible mis-spellings
+- Edit lines 15 and 16 with correct year and dates (MM-DD-YY) you want to pull
+- Edit line 13 for output location, goes to a folder called raw_date
+- Output will include a summary file and files for each mouse
+NOTE:
+- The summary files contains all mice that ran that day. I like to go through and delete the others by hand. Also I reorganize the mice, so they are in alphabetical and number order.
+- I then transfer the trials completed by hand to my .csv file with training data ([file](../training_data.csv))
+
+
+
+
+UNEDITED from DANA's pipeline
+2.	Check total trials and percent correct for 100-0, 90-10, 80-20, and 70-30 schedules
+a.	Code: 100-0_plus_221207
+i.	Notes: When you run this file it will ask for a directory name. Choose one of the dated folders from within raw_data that you pulled using the previous code. The output will automatically go to a folder called processed_data. The output will include the following information: animal ID, date run, timeTaken, schedule, total trial, percentCorrect, percentReward, numReversals. Some outputs might not work depending on the schedule run. 
+3.	First Bandit Analysis for 
+a.	Code: two_arm_bandit_full_dm
+i.	Notes: Data must be organized into folders labeled based on bandit day (ex. “bandit1”, “bandit2”, etc. ) and these folders must include files that are raw data files from bandit task only. Edit line 6 to update the location of these data folders. Output folders will come out with the label “processed” (ex. “bandit1_processed”, “bandit2_processed”, etc.). The output will include the following information: left_probability, right_probability, choice_chosen, reward_outcome, display timestamp, pokes timestamp, next trial timestamp, choice reaction time, and trial initiation time. 
+4.	Track movement in operant chamber
+a.	Code: IRBeamBreaksTotal_dm
+i.	Notes:  Data must be organized into folders labeled based on bandit day (ex. “bandit1”, “bandit2”, etc. ) and these folders must include files that are raw data files from bandit task only. Edit line 6 to update the location of these data folders. Output file will be labeled sequence_movements_all. The output will include a total number of IR Beam Breaks for each mouse on each individual day of bandit. 
+5.	Large Bandit Analysis for
+a.	Code: summary_restless
+i.	Notes: Data must be organized into folders labeled based on bandit day (ex. “bandit1”, “bandit2”, etc. ) and these folders must include files that are raw data files from bandit task only. The code will ask you for an input file which will be bandit_processed (the code will automatically run through each individual bandit# folder. Output files can be found in a folder labeled bandit_output with a separate file for each bandit session. Output will include mouseID, dateList, totalTrial, meanRunLength, percentWinStay, percentLoseShift, percentStay, percentSwitch, percentReward, percentChance, pReward-Chance. 
+6.	Run Hidden Markov Model (HMM)
+a.	Code: HMM2ArmAcrossSession_eg_221221
+i.	Notes: This is the code that actually uses the HMM to calculate probability of exploration and exploitation. Edit the input folder on line 15 to locate the data. The input data needs to be the data folder “bandit_processed” which was created from two_arm_bandit_full_dm code above. The output folder will be called HMM_output. Edit the location of the output folder on line 16. Don’t actually run this code, just set it up. It will be run using the launcher (see 6b below). 
+b.	Code: launcher_runHMM_chef_v3
+i.	Notes: You do not actually have to run this code either. But you need to make sure all the set up is correct before running “MSI_practice” (6c below). Edit line 7 with the appropriate email associated with MSI account. Edit line 8-10 to reflect the name of the project. Edit line 16 for correct google drive location of input data and for the correct scratch folder that you are working in. Edit line 19 to reflect the code that should be running (HMM2ArmAcrossSession_eg_221221) and the location where that code is in scratch. Edit line 22 for correct scratch folder and google drive location for output data. 
+c.	Code: MSI_practice
+i.	Notes: This is the code you actually run. Edit and run line 5 to start working in your specific MSI. Run line 8 to enter your scratch folder. Edit and run line 11 so that rclone can copy the correct code (launcher_runHMM_chef_v3) over to scratch from the correct place in google drive. Edit line 14 with the correct output folder. Edit line 16 to include the correct location of the launcher code and run the line.  HMM should now be running. You can use line 21 to check if it is working. 
+7.	Calculate WinStay by state
+a.	Code: winstaybyState_230110
+i.	Notes: This code will ask you to input a directory name. Your input data should be from HMM_output folders (ex. HMM_output > bandit1_processed, bandti2_processed, etc.). Output can be found in a win_stay folder with a single file for each bandit session. To set output directory edit line 11 of code. Output files will include mouseID, p win stay explore, p win stay exploit. 
+8.	Calculate LoseShift by state
+a.	loseshiftbyState_230110
+i.	Notes: This code will ask you to input a directory name. Your input data should be from HMM_output folders (ex. HMM_output > bandit1_processed, bandti2_processed, etc.). Output can be found in a lose_shift folder with a single file for each bandit session. To set output directory edit line 10 of code. Output files will include mouseID, p lose shift explore, p lose shift exploit. 
+9.	Calculate Probability of Exploration
+a.	Pexplore013123
+i.	Notes: This code will ask you to input a directory name. Your input data should be from HMM_output and the code will automatically run through each individual bandit#_processed file. Output will get automatically dumped into whatever directory you are currently working in. You will get an output file for all bandit days. The output file will include mouseID, dateID, Pexplore. 
+
+
+Next add: 
+Reaction time codes
+RL modeling codes
+

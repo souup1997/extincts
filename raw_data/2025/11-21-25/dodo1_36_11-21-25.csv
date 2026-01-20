@@ -1,0 +1,1104 @@
+SID,DTime,DAuto,DEvent,DEventText,DEffectText,DAltText,DGroup,DArgCount,DText1,DValue1,DText2,DValue2,DText3,DValue3,DText4,DValue4,DText5,DValue5,scheduleID
+36,0.0,0,28,Input Definition,(SYSTEM),,0,5,Auxiliary_IN #1,8.0,Auxiliary_IN #2,9,Auxiliary_IN #3,10,Tray #1,0,BIRBeam #1,1,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,1,28,Input Definition,(SYSTEM),,0,5,FIRBeam #1,2.0,RightFIRBeam #1,3,FeederStatus #1,4,Terminal_Block_IN #6,5,Terminal_Block_IN #7,6,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,2,28,Input Definition,(SYSTEM),,0,1,Terminal_Block_IN #8,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,3,27,Output Definition,(SYSTEM),,0,5,Auxiliary Enable,18.0,init_TTL #1,10,onset_choice_TTL #1,11,cue_TTL #1,12,reward_retrieval_TTL #1,13,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,4,27,Output Definition,(SYSTEM),,0,5,TTL #1,14.0,TTL #2,15,Auxiliary_OUT #7,16,Auxiliary_OUT #8,17,HouseLight #1,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,5,27,Output Definition,(SYSTEM),,0,5,TrayLight #1,1.0,Feeder #1,2,Feeder #2,3,HouseLight #2,4,Terminal_Block_OUT #6,5,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,6,27,Output Definition,(SYSTEM),,0,4,Terminal_Block_OUT #7,6.0,Terminal_Block_OUT #8,7,Terminal_Block_OUT #9,8,Terminal_Block_OUT #10,9,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,7,71,List Array - Write,audio,,0,2,incorrect tone,1.0,correct tone,2,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,8,37,Image List Definition,Background,,0,1,Bussey Mouse Operant Mode 2 x 1 x low,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,9,36,List Array - Write,Background,,0,1,Image 1,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,10,22,List Array - Write,Grid_Position,,0,5,Item #1,1.0,Item #2,1,Item #3,1,Item #4,1,Item #5,1,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,11,22,List Array - Write,Grid_Position,,0,5,Item #6,2.0,Item #7,2,Item #8,2,Item #9,2,Item #10,2,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,12,37,Image List Definition,Images,,0,1,Bussey Mouse Operant Mode 2 x 1 x low,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,13,36,List Array - Write,Images,,0,2,Image 1,1.0,Image 2,2,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,14,37,Image List Definition,Training_Images,,0,1,Bussey Mouse Operant Mode 2 x 1 x low,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,15,36,List Array - Write,Training_Images,,0,5,Image 1,1.0,Image 2,2,Image 3,3,Image 4,4,Image 5,5,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,16,36,List Array - Write,Training_Images,,0,5,Image 6,6.0,Image 7,7,Image 8,8,Image 9,9,Image 10,10,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,17,36,List Array - Write,Training_Images,,0,5,Image 11,11.0,Image 12,12,Image 13,13,Image 14,14,Image 15,15,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,18,36,List Array - Write,Training_Images,,0,5,Image 16,16.0,Image 17,17,Image 18,18,Image 19,19,Image 20,20,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,19,36,List Array - Write,Training_Images,,0,5,Image 21,21.0,Image 22,22,Image 23,23,Image 24,24,Image 25,25,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,20,36,List Array - Write,Training_Images,,0,5,Image 26,26.0,Image 27,27,Image 28,28,Image 29,29,Image 30,30,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,21,36,List Array - Write,Training_Images,,0,5,Image 31,31.0,Image 32,32,Image 33,33,Image 34,34,Image 35,35,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,22,36,List Array - Write,Training_Images,,0,5,Image 36,36.0,Image 37,37,Image 38,38,Image 39,39,Image 40,40,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,23,16,Variable Event,_Trial_Counter,,0,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,24,16,Variable Event,Blank_Touch_Counter,,0,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,25,16,Variable Event,Correct_Counter,,0,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,26,16,Variable Event,Correct_Grid_Position,,0,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,27,16,Variable Event,Feeder_Pulse_Time,,0,1,Value,280.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,28,16,Variable Event,First_Trial,,0,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,29,16,Variable Event,Image_Time,,0,1,Value,30.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,30,16,Variable Event,Incorrect_Grid_Position,,0,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,31,16,Variable Event,ITI,,0,1,Value,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,32,16,Variable Event,Left,,0,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,33,16,Variable Event,Left_Touches_during_ITI,,0,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,34,16,Variable Event,Post_Reward_Tone_Delay,,0,1,Value,0.5,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,35,16,Variable Event,Reward_Tone_Duration,,0,1,Value,500.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,36,16,Variable Event,Right,,0,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,37,16,Variable Event,Right_touches_during_ITI,,0,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,38,74,Audio List Items Described,audio,,0,2,Tone: 3000 Hz,1.0,Tone: 12000 Hz,2,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,39,72,Image List Items Described,Background,,0,1,<ABETMultimediaFolder>\PAL\5.bmp,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,40,72,Image List Items Described,Images,,0,2,<ABETMultimediaFolder>\PD\PD New Mouse\800x600-marbles-240x240.bmp,1.0,<ABETMultimediaFolder>\PD\PD New Mouse\800x600-flag-240x240.bmp,2,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,41,72,Image List Items Described,Training_Images,,0,5,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-40-240x240.bmp,1.0,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-1-240x240.bmp,2,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-2-240x240.bmp,3,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-3-240x240.bmp,4,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-4-240x240.bmp,5,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,42,72,Image List Items Described,Training_Images,,0,5,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-5-240x240.bmp,6.0,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-6-240x240.bmp,7,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-7-240x240.bmp,8,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-8-240x240.bmp,9,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-9-240x240.bmp,10,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,43,72,Image List Items Described,Training_Images,,0,5,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-10-240x240.bmp,11.0,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-11-240x240.bmp,12,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-12-240x240.bmp,13,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-13-240x240.bmp,14,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-14-240x240.bmp,15,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,44,72,Image List Items Described,Training_Images,,0,5,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-15-240x240.bmp,16.0,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-16-240x240.bmp,17,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-17-240x240.bmp,18,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-18-240x240.bmp,19,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-19-240x240.bmp,20,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,45,72,Image List Items Described,Training_Images,,0,5,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-20-240x240.bmp,21.0,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-21-240x240.bmp,22,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-22-240x240.bmp,23,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-23-240x240.bmp,24,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-24-240x240.bmp,25,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,46,72,Image List Items Described,Training_Images,,0,5,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-25-240x240.bmp,26.0,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-26-240x240.bmp,27,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-27-240x240.bmp,28,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-28-240x240.bmp,29,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-29-240x240.bmp,30,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,47,72,Image List Items Described,Training_Images,,0,5,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-30-240x240.bmp,31.0,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-31-240x240.bmp,32,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-32-240x240.bmp,33,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-33-240x240.bmp,34,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-34-240x240.bmp,35,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,48,72,Image List Items Described,Training_Images,,0,5,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-35-240x240.bmp,36.0,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-36-240x240.bmp,37,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-37-240x240.bmp,38,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-38-240x240.bmp,39,<ABETMultimediaFolder>\PD Training\New 2x1 Mouse\800x600-39-240x240.bmp,40,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,49,10003,INFO,(SYSTEM),(INFO),0,1,24 Volt is online.,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,50,39,Input Transition Off Event,FIRBeam #1,,0,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,51,10003,INFO,(SYSTEM),(INFO),0,1,24 Volt is online.,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,52,0,Schedule Startup Event,(SYSTEM),,0,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,53,29,Timer Event,_Schedule_Timer,,0,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,54,21,Group Change Event,Group Change,,0,1,New Group,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,55,17,List Change - Set,audio,,1,2,Index,1.0,incorrect tone,1,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,56,17,List Change - Set,Background,,1,2,Index,1.0,Image 1,1,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,57,17,List Change - Set,Grid_Position,,1,2,Index,1.0,Value,1,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,58,17,List Change - Set,Images,,1,2,Index,1.0,Image 1,1,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,59,17,List Change - Set,Training_Images,,1,2,Index,6.0,Image 6,6,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,60,1,Condition Event,Set Blank Images,,1,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,61,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,1,2,Position,1.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,62,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,1,2,Position,2.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,63,16,Variable Event,Post_Reward_Tone_Delay,,1,1,Value,500.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,64,16,Variable Event,Post_Reward_Tone_Delay,,1,1,Value,1000.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,65,16,Variable Event,Post_Reward_Tone_Delay,,1,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.0,66,21,Group Change Event,Group Change,,1,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.012,67,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.012,68,16,Variable Event,Correct_Grid_Position,,2,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.012,69,17,List Change - Set,Grid_Position,,2,2,Index,3.0,Value,1,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.012,70,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.012,71,1,Condition Event,Incorrect Right,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.012,72,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.012,73,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.012,74,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.012,75,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,0.012,76,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1.384,77,38,Input Transition On Event,BIRBeam #1,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,2.108,78,38,Input Transition On Event,Tray #1,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,3.018,79,1,Condition Event,No Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,3.018,80,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,3.018,81,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,3.018,82,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,1.0,Image 6,5,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,3.018,83,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,3.018,84,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,3.018,85,17,List Change - Set,Training_Images,,6,2,Index,33.0,Image 33,33,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,3.018,86,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,7.542,87,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,12.127,88,39,Input Transition Off Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,12.669,89,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,23.132,90,39,Input Transition Off Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,23.704,91,38,Input Transition On Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,24.31,92,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,27.848,93,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,32.565,94,39,Input Transition Off Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,33.019,95,1,Condition Event,Image display time end,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,33.019,96,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,1.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,33.019,97,7,Pulse Output Event,Feeder #1,,7,1,Duration,0.28,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,33.019,98,3,Output On Event,TrayLight #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,33.019,99,16,Variable Event,First_Trial,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,33.019,100,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,36.628,101,38,Input Transition On Event,BIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,37.372,102,39,Input Transition Off Event,BIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,42.293,103,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,45.03,104,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,72.202,105,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,77.989,106,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,78.019,107,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,78.069,108,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,78.218,109,38,Input Transition On Event,BIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,79.132,110,38,Input Transition On Event,Tray #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,79.132,111,1,Condition Event,Reward Collected Start ITI,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,79.132,112,4,Output Off Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,79.132,113,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,79.144,114,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,79.144,115,16,Variable Event,Correct_Grid_Position,,2,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,79.144,116,17,List Change - Set,Grid_Position,,2,2,Index,2.0,Value,1,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,79.144,117,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,79.144,118,1,Condition Event,Incorrect Right,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,79.144,119,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,79.144,120,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,79.144,121,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,79.144,122,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,79.144,123,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,82.154,124,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,82.154,125,16,Variable Event,_Trial_Counter,,5,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,82.154,126,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,82.154,127,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,82.154,128,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,1.0,Image 33,32,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,82.154,129,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,82.154,130,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,82.154,131,17,List Change - Set,Training_Images,,6,2,Index,28.0,Image 28,28,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,82.154,132,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,85.466,133,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,90.198,134,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,91.353,135,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,97.366,136,39,Input Transition Off Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,98.905,137,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,106.017,138,30,Touch Down Event,Bussey Mouse Operant Mode 2 x 1 x low,,7,4,Position,1.0,Image 33,32,CoordX,142,CoordY,136,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,106.017,139,1,Condition Event,Image Touched,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,106.017,140,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,1.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,106.017,141,64,Play Audio Tone for Duration,(AUDIO),audio,7,3,correct tone,1.0,Intensity,100,Duration,500,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,106.017,142,29,Timer Event,Post_Reward_Tone_Delay_Timer,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,106.017,143,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,106.13,144,31,Touch Up Event,Bussey Mouse Operant Mode 2 x 1 x low,,8,4,Position,1.0,Image 1,0,CoordX,137,CoordY,136,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,106.631,145,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,106.768,146,38,Input Transition On Event,BIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,107.02,147,1,Condition Event,Post Reward Tone Delay,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,107.02,148,16,Variable Event,Feeder_Pulse_Time,,8,1,Value,840.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,107.02,149,7,Pulse Output Event,Feeder #1,,8,1,Duration,0.84,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,107.02,150,3,Output On Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,107.02,151,16,Variable Event,Correct_Counter,,8,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,107.02,152,16,Variable Event,Feeder_Pulse_Time,,8,1,Value,280.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,107.02,153,16,Variable Event,First_Trial,,8,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,107.02,154,29,Timer Event,Post_Reward_Tone_Delay_Timer,,8,1,Value,1.004,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,107.02,155,29,Timer Event,Post_Reward_Tone_Delay_Timer,,8,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,107.02,156,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,107.021,157,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,107.021,158,16,Variable Event,Correct_Grid_Position,,2,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,107.021,159,17,List Change - Set,Grid_Position,,2,2,Index,10.0,Value,2,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,107.021,160,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,107.021,161,1,Condition Event,Incorrect Right,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,107.021,162,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,107.021,163,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,107.022,164,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,107.022,165,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,107.022,166,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,110.027,167,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,110.027,168,16,Variable Event,_Trial_Counter,,5,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,110.027,169,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,110.027,170,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,110.027,171,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,1.0,Image 28,27,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,110.027,172,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,110.027,173,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,110.027,174,17,List Change - Set,Training_Images,,6,2,Index,9.0,Image 9,9,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,110.027,175,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,112.294,176,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,121.01,177,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,123.678,178,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,127.22,179,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,134.33,180,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,134.66,181,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,139.613,182,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,139.714,183,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,139.881,184,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,140.028,185,1,Condition Event,Image display time end,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,140.028,186,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,1.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,140.028,187,7,Pulse Output Event,Feeder #1,,7,1,Duration,0.28,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,140.028,188,3,Output On Event,TrayLight #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,140.028,189,16,Variable Event,First_Trial,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,140.028,190,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,140.03,191,1,Condition Event,Reward Collected Start ITI,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,140.03,192,4,Output Off Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,140.03,193,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,140.03,194,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,140.03,195,16,Variable Event,Correct_Grid_Position,,2,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,140.03,196,17,List Change - Set,Grid_Position,,2,2,Index,4.0,Value,1,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,140.03,197,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,140.031,198,1,Condition Event,Incorrect Left,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,140.031,199,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,140.031,200,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,140.031,201,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,140.031,202,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,140.031,203,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,140.144,204,39,Input Transition Off Event,Tray #1,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,141.29,205,38,Input Transition On Event,Tray #1,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,143.032,206,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,143.032,207,16,Variable Event,_Trial_Counter,,5,1,Value,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,143.032,208,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,143.032,209,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,143.032,210,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,2.0,Image 9,8,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,143.032,211,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,143.032,212,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,143.032,213,17,List Change - Set,Training_Images,,6,2,Index,26.0,Image 26,26,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,143.032,214,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,146.095,215,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,157.765,216,39,Input Transition Off Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,159.903,217,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,159.916,218,39,Input Transition Off Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,159.969,219,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,161.009,220,39,Input Transition Off Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,163.023,221,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,167.879,222,39,Input Transition Off Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,168.259,223,38,Input Transition On Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,169.568,224,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,171.649,225,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,171.683,226,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,171.753,227,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,171.785,228,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,173.032,229,1,Condition Event,Image display time end,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,173.032,230,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,2.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,173.032,231,7,Pulse Output Event,Feeder #1,,7,1,Duration,0.28,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,173.032,232,3,Output On Event,TrayLight #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,173.032,233,16,Variable Event,First_Trial,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,173.032,234,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,173.036,235,1,Condition Event,Reward Collected Start ITI,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,173.036,236,4,Output Off Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,173.036,237,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,173.037,238,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,173.037,239,16,Variable Event,Correct_Grid_Position,,2,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,173.037,240,17,List Change - Set,Grid_Position,,2,2,Index,7.0,Value,2,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,173.037,241,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,173.037,242,1,Condition Event,Incorrect Right,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,173.037,243,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,173.037,244,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,173.037,245,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,173.037,246,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,173.037,247,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,173.901,248,39,Input Transition Off Event,Tray #1,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,176.037,249,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,176.037,250,16,Variable Event,_Trial_Counter,,5,1,Value,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,176.037,251,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,176.038,252,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,176.038,253,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,1.0,Image 26,25,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,176.038,254,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,176.038,255,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,176.038,256,17,List Change - Set,Training_Images,,6,2,Index,32.0,Image 32,32,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,176.038,257,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,204.167,258,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,206.038,259,1,Condition Event,Image display time end,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,206.038,260,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,1.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,206.038,261,7,Pulse Output Event,Feeder #1,,7,1,Duration,0.28,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,206.038,262,3,Output On Event,TrayLight #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,206.038,263,16,Variable Event,First_Trial,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,206.038,264,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,206.04,265,1,Condition Event,Reward Collected Start ITI,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,206.04,266,4,Output Off Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,206.04,267,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,206.051,268,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,206.051,269,16,Variable Event,Correct_Grid_Position,,2,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,206.051,270,17,List Change - Set,Grid_Position,,2,2,Index,8.0,Value,2,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,206.051,271,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,206.051,272,1,Condition Event,Incorrect Left,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,206.051,273,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,206.051,274,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,206.051,275,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,206.051,276,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,206.051,277,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,209.06,278,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,209.06,279,16,Variable Event,_Trial_Counter,,5,1,Value,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,209.06,280,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,209.06,281,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,209.06,282,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,2.0,Image 32,31,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,209.06,283,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,209.06,284,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,209.06,285,17,List Change - Set,Training_Images,,6,2,Index,27.0,Image 27,27,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,209.06,286,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,209.426,287,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,217.783,288,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,220.61,289,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,221.928,290,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,224.883,291,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,233.259,292,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,235.097,293,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,239.06,294,1,Condition Event,Image display time end,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,239.06,295,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,2.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,239.06,296,7,Pulse Output Event,Feeder #1,,7,1,Duration,0.28,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,239.06,297,3,Output On Event,TrayLight #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,239.06,298,16,Variable Event,First_Trial,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,239.06,299,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,250.106,300,38,Input Transition On Event,Tray #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,250.106,301,1,Condition Event,Reward Collected Start ITI,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,250.106,302,4,Output Off Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,250.106,303,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,250.107,304,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,250.107,305,16,Variable Event,Correct_Grid_Position,,2,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,250.107,306,17,List Change - Set,Grid_Position,,2,2,Index,9.0,Value,2,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,250.107,307,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,250.108,308,1,Condition Event,Incorrect Left,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,250.108,309,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,250.108,310,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,250.108,311,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,250.108,312,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,250.108,313,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,253.108,314,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,253.108,315,16,Variable Event,_Trial_Counter,,5,1,Value,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,253.108,316,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,253.108,317,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,253.108,318,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,2.0,Image 27,26,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,253.108,319,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,253.108,320,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,253.108,321,17,List Change - Set,Training_Images,,6,2,Index,39.0,Image 39,39,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,253.108,322,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,254.604,323,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,255.214,324,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,255.366,325,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,257.283,326,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,257.68,327,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,257.775,328,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,257.799,329,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,259.688,330,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,260.882,331,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,260.944,332,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,262.799,333,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,267.691,334,39,Input Transition Off Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,269.285,335,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,274.827,336,39,Input Transition Off Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,276.128,337,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,276.987,338,39,Input Transition Off Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,277.037,339,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,277.087,340,39,Input Transition Off Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,277.165,341,38,Input Transition On Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,278.872,342,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,281.37,343,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,282.336,344,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,283.108,345,1,Condition Event,Image display time end,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,283.108,346,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,2.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,283.108,347,7,Pulse Output Event,Feeder #1,,7,1,Duration,0.28,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,283.108,348,3,Output On Event,TrayLight #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,283.108,349,16,Variable Event,First_Trial,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,283.108,350,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,283.121,351,1,Condition Event,Reward Collected Start ITI,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,283.121,352,4,Output Off Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,283.121,353,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,283.122,354,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,283.122,355,16,Variable Event,Correct_Grid_Position,,2,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,283.122,356,17,List Change - Set,Grid_Position,,2,2,Index,6.0,Value,2,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,283.122,357,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,283.122,358,1,Condition Event,Incorrect Left,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,283.122,359,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,283.122,360,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,283.122,361,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,283.122,362,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,283.122,363,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,286.129,364,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,286.129,365,16,Variable Event,_Trial_Counter,,5,1,Value,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,286.129,366,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,286.129,367,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,286.129,368,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,2.0,Image 39,38,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,286.129,369,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,286.129,370,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,286.129,371,17,List Change - Set,Training_Images,,6,2,Index,19.0,Image 19,19,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,286.129,372,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,289.289,373,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,313.233,374,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,314.29,375,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,316.13,376,1,Condition Event,Image display time end,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,316.13,377,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,2.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,316.13,378,7,Pulse Output Event,Feeder #1,,7,1,Duration,0.28,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,316.13,379,3,Output On Event,TrayLight #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,316.13,380,16,Variable Event,First_Trial,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,316.13,381,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,317.419,382,38,Input Transition On Event,Tray #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,317.419,383,1,Condition Event,Reward Collected Start ITI,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,317.419,384,4,Output Off Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,317.419,385,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,317.42,386,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,317.42,387,16,Variable Event,Correct_Grid_Position,,2,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,317.42,388,17,List Change - Set,Grid_Position,,2,2,Index,5.0,Value,1,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,317.42,389,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,317.42,390,1,Condition Event,Incorrect Left,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,317.42,391,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,317.42,392,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,317.42,393,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,317.42,394,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,317.42,395,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,320.42,396,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,320.42,397,16,Variable Event,_Trial_Counter,,5,1,Value,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,320.42,398,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,320.421,399,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,320.421,400,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,2.0,Image 19,18,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,320.421,401,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,320.421,402,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,320.421,403,17,List Change - Set,Training_Images,,6,2,Index,12.0,Image 12,12,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,320.421,404,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,321.742,405,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,321.84,406,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,322.008,407,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,327.541,408,39,Input Transition Off Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,327.722,409,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,347.118,410,39,Input Transition Off Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,350.421,411,1,Condition Event,Image display time end,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,350.421,412,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,2.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,350.421,413,7,Pulse Output Event,Feeder #1,,7,1,Duration,0.28,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,350.421,414,3,Output On Event,TrayLight #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,350.421,415,16,Variable Event,First_Trial,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,350.421,416,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,360.199,417,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,372.083,418,30,Touch Down Event,Bussey Mouse Operant Mode 2 x 1 x low,,8,4,Position,1.0,Image 1,0,CoordX,84,CoordY,225,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,372.768,419,31,Touch Up Event,Bussey Mouse Operant Mode 2 x 1 x low,,8,4,Position,1.0,Image 1,0,CoordX,85,CoordY,233,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,375.84,420,30,Touch Down Event,Bussey Mouse Operant Mode 2 x 1 x low,,8,4,Position,0.0,(NoMedia),-1,CoordX,147,CoordY,486,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,376.022,421,31,Touch Up Event,Bussey Mouse Operant Mode 2 x 1 x low,,8,4,Position,1.0,Image 1,0,CoordX,14,CoordY,158,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,377.0,422,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,377.367,423,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,379.098,424,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,382.093,425,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,391.744,426,30,Touch Down Event,Bussey Mouse Operant Mode 2 x 1 x low,,8,4,Position,2.0,Image 1,0,CoordX,209,CoordY,225,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,391.918,427,31,Touch Up Event,Bussey Mouse Operant Mode 2 x 1 x low,,8,4,Position,2.0,Image 1,0,CoordX,227,CoordY,225,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,398.893,428,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,441.81,429,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,442.686,430,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,442.8,431,38,Input Transition On Event,BIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,443.436,432,38,Input Transition On Event,Tray #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,443.436,433,1,Condition Event,Reward Collected Start ITI,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,443.436,434,4,Output Off Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,443.436,435,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,443.437,436,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,443.437,437,16,Variable Event,Correct_Grid_Position,,2,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,443.437,438,17,List Change - Set,Grid_Position,,2,2,Index,8.0,Value,2,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,443.437,439,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,443.437,440,1,Condition Event,Incorrect Right,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,443.437,441,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,443.437,442,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,443.437,443,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,443.437,444,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,443.437,445,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,446.437,446,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,446.437,447,16,Variable Event,_Trial_Counter,,5,1,Value,9.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,446.437,448,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,446.438,449,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,446.438,450,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,1.0,Image 12,11,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,446.438,451,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,446.438,452,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,446.438,453,17,List Change - Set,Training_Images,,6,2,Index,7.0,Image 7,7,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,446.438,454,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,463.605,455,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,466.436,456,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,469.342,457,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,470.233,458,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,473.884,459,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,474.184,460,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,475.337,461,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,475.412,462,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,475.468,463,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,475.557,464,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,475.578,465,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,476.449,466,1,Condition Event,Image display time end,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,476.449,467,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,1.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,476.449,468,7,Pulse Output Event,Feeder #1,,7,1,Duration,0.28,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,476.449,469,3,Output On Event,TrayLight #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,476.449,470,16,Variable Event,First_Trial,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,476.449,471,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,480.078,472,38,Input Transition On Event,Tray #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,480.078,473,1,Condition Event,Reward Collected Start ITI,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,480.078,474,4,Output Off Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,480.078,475,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,480.079,476,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,480.079,477,16,Variable Event,Correct_Grid_Position,,2,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,480.079,478,17,List Change - Set,Grid_Position,,2,2,Index,6.0,Value,2,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,480.079,479,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,480.09,480,1,Condition Event,Incorrect Left,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,480.09,481,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,480.09,482,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,480.09,483,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,480.09,484,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,480.09,485,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,483.099,486,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,483.099,487,16,Variable Event,_Trial_Counter,,5,1,Value,10.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,483.099,488,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,483.099,489,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,483.099,490,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,2.0,Image 7,6,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,483.099,491,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,483.099,492,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,483.099,493,17,List Change - Set,Training_Images,,6,2,Index,1.0,Image 1,1,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,483.099,494,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,485.468,495,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,486.425,496,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,493.244,497,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,505.928,498,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,508.146,499,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,508.399,500,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,508.404,501,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,508.471,502,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,509.329,503,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,513.1,504,1,Condition Event,Image display time end,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,513.1,505,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,2.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,513.1,506,7,Pulse Output Event,Feeder #1,,7,1,Duration,0.28,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,513.1,507,3,Output On Event,TrayLight #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,513.1,508,16,Variable Event,First_Trial,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,513.1,509,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,515.431,510,38,Input Transition On Event,Tray #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,515.431,511,1,Condition Event,Reward Collected Start ITI,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,515.431,512,4,Output Off Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,515.431,513,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,515.432,514,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,515.432,515,16,Variable Event,Correct_Grid_Position,,2,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,515.432,516,17,List Change - Set,Grid_Position,,2,2,Index,4.0,Value,1,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,515.432,517,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,515.432,518,1,Condition Event,Incorrect Left,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,515.432,519,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,515.432,520,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,515.432,521,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,515.432,522,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,515.432,523,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,518.432,524,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,518.432,525,16,Variable Event,_Trial_Counter,,5,1,Value,11.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,518.432,526,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,518.436,527,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,518.436,528,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,2.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,518.436,529,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,518.436,530,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,518.436,531,17,List Change - Set,Training_Images,,6,2,Index,24.0,Image 24,24,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,518.436,532,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,520.549,533,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,522.305,534,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,522.377,535,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,524.393,536,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,527.894,537,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,531.855,538,39,Input Transition Off Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,532.095,539,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,535.947,540,39,Input Transition Off Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,544.33,541,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,548.004,542,39,Input Transition Off Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,548.443,543,1,Condition Event,Image display time end,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,548.443,544,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,2.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,548.443,545,7,Pulse Output Event,Feeder #1,,7,1,Duration,0.28,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,548.443,546,3,Output On Event,TrayLight #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,548.443,547,16,Variable Event,First_Trial,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,548.443,548,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,554.151,549,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,555.139,550,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,555.766,551,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,557.044,552,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,557.222,553,38,Input Transition On Event,BIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,558.14,554,38,Input Transition On Event,Tray #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,558.14,555,1,Condition Event,Reward Collected Start ITI,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,558.14,556,4,Output Off Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,558.14,557,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,558.141,558,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,558.141,559,16,Variable Event,Correct_Grid_Position,,2,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,558.141,560,17,List Change - Set,Grid_Position,,2,2,Index,2.0,Value,1,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,558.141,561,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,558.141,562,1,Condition Event,Incorrect Right,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,558.141,563,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,558.141,564,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,558.141,565,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,558.141,566,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,558.141,567,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,561.141,568,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,561.141,569,16,Variable Event,_Trial_Counter,,5,1,Value,12.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,561.141,570,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,561.142,571,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,561.142,572,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,1.0,Image 24,23,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,561.142,573,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,561.142,574,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,561.142,575,17,List Change - Set,Training_Images,,6,2,Index,30.0,Image 30,30,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,561.142,576,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,561.16,577,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,561.606,578,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,562.646,579,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,562.707,580,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,562.866,581,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,563.759,582,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,566.884,583,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,569.628,584,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,571.269,585,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,571.574,586,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,571.577,587,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,571.61,588,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,571.63,589,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,571.84,590,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,571.86,591,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,572.167,592,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,572.172,593,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,580.72,594,39,Input Transition Off Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,580.951,595,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,582.844,596,39,Input Transition Off Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,591.142,597,1,Condition Event,Image display time end,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,591.142,598,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,1.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,591.142,599,7,Pulse Output Event,Feeder #1,,7,1,Duration,0.28,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,591.142,600,3,Output On Event,TrayLight #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,591.142,601,16,Variable Event,First_Trial,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,591.142,602,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,686.062,603,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,687.315,604,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,687.429,605,38,Input Transition On Event,BIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,688.155,606,38,Input Transition On Event,Tray #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,688.155,607,1,Condition Event,Reward Collected Start ITI,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,688.155,608,4,Output Off Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,688.155,609,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,688.156,610,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,688.156,611,16,Variable Event,Correct_Grid_Position,,2,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,688.156,612,17,List Change - Set,Grid_Position,,2,2,Index,5.0,Value,1,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,688.156,613,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,688.156,614,1,Condition Event,Incorrect Right,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,688.156,615,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,688.156,616,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,688.156,617,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,688.156,618,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,688.156,619,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,691.095,620,39,Input Transition Off Event,Tray #1,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,691.156,621,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,691.156,622,16,Variable Event,_Trial_Counter,,5,1,Value,13.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,691.156,623,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,691.156,624,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,691.156,625,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,1.0,Image 30,29,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,691.156,626,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,691.156,627,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,691.156,628,17,List Change - Set,Training_Images,,6,2,Index,13.0,Image 13,13,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,691.156,629,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,691.733,630,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,693.45,631,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,698.011,632,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,699.225,633,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,702.717,634,39,Input Transition Off Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,704.747,635,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,715.363,636,39,Input Transition Off Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,721.156,637,1,Condition Event,Image display time end,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,721.156,638,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,1.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,721.156,639,7,Pulse Output Event,Feeder #1,,7,1,Duration,0.28,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,721.156,640,3,Output On Event,TrayLight #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,721.156,641,16,Variable Event,First_Trial,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,721.156,642,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,739.467,643,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,740.089,644,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,740.272,645,38,Input Transition On Event,BIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,741.551,646,38,Input Transition On Event,Tray #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,741.551,647,1,Condition Event,Reward Collected Start ITI,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,741.551,648,4,Output Off Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,741.551,649,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,741.552,650,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,741.552,651,16,Variable Event,Correct_Grid_Position,,2,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,741.552,652,17,List Change - Set,Grid_Position,,2,2,Index,7.0,Value,2,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,741.552,653,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,741.552,654,1,Condition Event,Incorrect Right,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,741.552,655,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,741.552,656,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,741.552,657,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,741.552,658,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,741.552,659,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,744.553,660,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,744.553,661,16,Variable Event,_Trial_Counter,,5,1,Value,14.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,744.553,662,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,744.554,663,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,744.554,664,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,1.0,Image 13,12,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,744.554,665,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,744.554,666,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,744.554,667,17,List Change - Set,Training_Images,,6,2,Index,16.0,Image 16,16,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,744.554,668,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,750.53,669,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,750.551,670,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,750.564,671,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,751.288,672,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,754.765,673,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,761.463,674,39,Input Transition Off Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,761.795,675,38,Input Transition On Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,762.499,676,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,762.964,677,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,763.589,678,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,767.003,679,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,769.615,680,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,771.338,681,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,771.392,682,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,771.98,683,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,774.559,684,1,Condition Event,Image display time end,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,774.559,685,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,1.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,774.559,686,7,Pulse Output Event,Feeder #1,,7,1,Duration,0.28,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,774.559,687,3,Output On Event,TrayLight #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,774.559,688,16,Variable Event,First_Trial,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,774.559,689,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,778.535,690,38,Input Transition On Event,Tray #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,778.535,691,1,Condition Event,Reward Collected Start ITI,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,778.535,692,4,Output Off Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,778.535,693,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,778.536,694,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,778.536,695,16,Variable Event,Correct_Grid_Position,,2,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,778.536,696,17,List Change - Set,Grid_Position,,2,2,Index,10.0,Value,2,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,778.536,697,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,778.536,698,1,Condition Event,Incorrect Left,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,778.536,699,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,778.536,700,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,778.536,701,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,778.536,702,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,778.536,703,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,781.537,704,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,781.537,705,16,Variable Event,_Trial_Counter,,5,1,Value,15.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,781.537,706,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,781.538,707,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,781.538,708,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,2.0,Image 16,15,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,781.538,709,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,781.538,710,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,781.538,711,17,List Change - Set,Training_Images,,6,2,Index,38.0,Image 38,38,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,781.538,712,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,788.002,713,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,788.723,714,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,791.562,715,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,791.794,716,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,792.191,717,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,795.648,718,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,796.014,719,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,797.121,720,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,798.263,721,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,801.932,722,39,Input Transition Off Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,802.916,723,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,805.298,724,39,Input Transition Off Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,807.844,725,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,808.275,726,39,Input Transition Off Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,810.441,727,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,811.451,728,39,Input Transition Off Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,811.549,729,1,Condition Event,Image display time end,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,811.549,730,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,2.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,811.549,731,7,Pulse Output Event,Feeder #1,,7,1,Duration,0.28,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,811.549,732,3,Output On Event,TrayLight #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,811.549,733,16,Variable Event,First_Trial,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,811.549,734,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,889.229,735,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,889.809,736,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,889.843,737,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,890.588,738,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,890.625,739,38,Input Transition On Event,BIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,891.361,740,38,Input Transition On Event,Tray #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,891.361,741,1,Condition Event,Reward Collected Start ITI,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,891.361,742,4,Output Off Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,891.361,743,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,891.373,744,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,891.373,745,16,Variable Event,Correct_Grid_Position,,2,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,891.373,746,17,List Change - Set,Grid_Position,,2,2,Index,9.0,Value,2,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,891.373,747,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,891.374,748,1,Condition Event,Incorrect Left,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,891.374,749,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,891.374,750,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,891.374,751,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,891.374,752,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,891.374,753,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,894.379,754,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,894.379,755,16,Variable Event,_Trial_Counter,,5,1,Value,16.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,894.379,756,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,894.383,757,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,894.383,758,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,2.0,Image 38,37,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,894.383,759,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,894.383,760,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,894.383,761,17,List Change - Set,Training_Images,,6,2,Index,22.0,Image 22,22,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,894.383,762,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,895.39,763,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,896.318,764,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,896.351,765,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,896.378,766,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,896.403,767,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,896.53,768,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,896.715,769,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,896.799,770,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,898.136,771,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,900.478,772,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,901.76,773,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,902.171,774,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,902.423,775,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,902.626,776,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,902.725,777,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,902.931,778,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,903.015,779,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,904.617,780,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,904.635,781,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,910.078,782,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,911.152,783,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,919.742,784,39,Input Transition Off Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,920.615,785,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,921.379,786,39,Input Transition Off Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,924.383,787,1,Condition Event,Image display time end,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,924.383,788,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,2.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,924.383,789,7,Pulse Output Event,Feeder #1,,7,1,Duration,0.28,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,924.383,790,3,Output On Event,TrayLight #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,924.383,791,16,Variable Event,First_Trial,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,924.383,792,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,987.442,793,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,987.544,794,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1043.972,795,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1044.586,796,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1044.832,797,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1044.868,798,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1048.384,799,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1049.193,800,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1049.305,801,38,Input Transition On Event,BIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1050.052,802,38,Input Transition On Event,Tray #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1050.052,803,1,Condition Event,Reward Collected Start ITI,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1050.052,804,4,Output Off Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1050.052,805,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1050.053,806,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1050.053,807,16,Variable Event,Correct_Grid_Position,,2,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1050.053,808,17,List Change - Set,Grid_Position,,2,2,Index,1.0,Value,1,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1050.053,809,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1050.053,810,1,Condition Event,Incorrect Left,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1050.053,811,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1050.053,812,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1050.053,813,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1050.053,814,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1050.053,815,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1053.063,816,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1053.063,817,16,Variable Event,_Trial_Counter,,5,1,Value,17.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1053.063,818,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1053.063,819,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1053.063,820,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,2.0,Image 22,21,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1053.063,821,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1053.063,822,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1053.063,823,17,List Change - Set,Training_Images,,6,2,Index,14.0,Image 14,14,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1053.063,824,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1056.326,825,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1056.791,826,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1058.083,827,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1061.91,828,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1065.047,829,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1068.589,830,39,Input Transition Off Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1068.629,831,38,Input Transition On Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1068.692,832,39,Input Transition Off Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1068.776,833,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1070.114,834,39,Input Transition Off Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1083.063,835,1,Condition Event,Image display time end,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1083.063,836,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,2.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1083.063,837,7,Pulse Output Event,Feeder #1,,7,1,Duration,0.28,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1083.063,838,3,Output On Event,TrayLight #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1083.063,839,16,Variable Event,First_Trial,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1083.063,840,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1086.751,841,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1087.926,842,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1088.064,843,38,Input Transition On Event,BIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1088.622,844,38,Input Transition On Event,Tray #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1088.622,845,1,Condition Event,Reward Collected Start ITI,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1088.622,846,4,Output Off Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1088.622,847,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1088.623,848,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1088.623,849,16,Variable Event,Correct_Grid_Position,,2,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1088.623,850,17,List Change - Set,Grid_Position,,2,2,Index,3.0,Value,1,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1088.623,851,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1088.623,852,1,Condition Event,Incorrect Right,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1088.623,853,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1088.623,854,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1088.623,855,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1088.623,856,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1088.623,857,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1091.629,858,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1091.629,859,16,Variable Event,_Trial_Counter,,5,1,Value,18.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1091.629,860,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1091.63,861,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1091.63,862,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,1.0,Image 14,13,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1091.63,863,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1091.63,864,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1091.63,865,17,List Change - Set,Training_Images,,6,2,Index,31.0,Image 31,31,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1091.63,866,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1095.349,867,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1095.375,868,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1096.215,869,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1098.032,870,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1101.202,871,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1102.817,872,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1106.326,873,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1106.638,874,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1106.649,875,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1107.023,876,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1107.023,877,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1107.32,878,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1107.378,879,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1111.837,880,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1112.299,881,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1117.35,882,39,Input Transition Off Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1117.502,883,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1119.15,884,39,Input Transition Off Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1121.63,885,1,Condition Event,Image display time end,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1121.63,886,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,1.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1121.63,887,7,Pulse Output Event,Feeder #1,,7,1,Duration,0.28,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1121.63,888,3,Output On Event,TrayLight #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1121.63,889,16,Variable Event,First_Trial,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1121.63,890,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1427.169,891,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1429.889,892,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1433.524,893,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1433.823,894,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1443.477,895,30,Touch Down Event,Bussey Mouse Operant Mode 2 x 1 x low,,8,4,Position,1.0,Image 1,0,CoordX,31,CoordY,207,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1443.821,896,31,Touch Up Event,Bussey Mouse Operant Mode 2 x 1 x low,,8,4,Position,1.0,Image 1,0,CoordX,39,CoordY,225,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1445.713,897,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1446.521,898,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1446.719,899,38,Input Transition On Event,BIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1447.615,900,38,Input Transition On Event,Tray #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1447.615,901,1,Condition Event,Reward Collected Start ITI,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1447.615,902,4,Output Off Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1447.615,903,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1447.627,904,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1447.627,905,16,Variable Event,Correct_Grid_Position,,2,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1447.627,906,17,List Change - Set,Grid_Position,,2,2,Index,6.0,Value,2,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1447.627,907,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1447.628,908,1,Condition Event,Incorrect Right,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1447.628,909,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1447.628,910,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1447.628,911,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1447.628,912,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1447.628,913,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1450.585,914,39,Input Transition Off Event,Tray #1,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1450.632,915,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1450.632,916,16,Variable Event,_Trial_Counter,,5,1,Value,19.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1450.632,917,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1450.632,918,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1450.632,919,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,1.0,Image 31,30,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1450.632,920,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1450.632,921,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1450.632,922,17,List Change - Set,Training_Images,,6,2,Index,35.0,Image 35,35,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1450.632,923,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1453.101,924,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1455.117,925,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1459.214,926,39,Input Transition Off Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1459.536,927,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1467.415,928,39,Input Transition Off Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1467.426,929,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1479.1,930,39,Input Transition Off Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1480.633,931,1,Condition Event,Image display time end,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1480.633,932,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,1.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1480.633,933,7,Pulse Output Event,Feeder #1,,7,1,Duration,0.28,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1480.633,934,3,Output On Event,TrayLight #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1480.633,935,16,Variable Event,First_Trial,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1480.633,936,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1500.61,937,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1501.174,938,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1501.221,939,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1501.3,940,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1501.521,941,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1502.212,942,38,Input Transition On Event,BIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1502.226,943,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1502.83,944,38,Input Transition On Event,Tray #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1502.83,945,1,Condition Event,Reward Collected Start ITI,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1502.83,946,4,Output Off Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1502.83,947,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1502.842,948,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1502.842,949,16,Variable Event,Correct_Grid_Position,,2,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1502.842,950,17,List Change - Set,Grid_Position,,2,2,Index,7.0,Value,2,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1502.842,951,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1502.842,952,1,Condition Event,Incorrect Left,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1502.842,953,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1502.842,954,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1502.842,955,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1502.842,956,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1502.842,957,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1505.846,958,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1505.846,959,16,Variable Event,_Trial_Counter,,5,1,Value,20.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1505.846,960,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1505.85,961,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1505.85,962,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,2.0,Image 35,34,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1505.85,963,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1505.85,964,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1505.85,965,17,List Change - Set,Training_Images,,6,2,Index,20.0,Image 20,20,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1505.85,966,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1506.195,967,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1508.036,968,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1508.718,969,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1511.983,970,39,Input Transition Off Event,BIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1514.176,971,38,Input Transition On Event,FIRBeam #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1515.558,972,30,Touch Down Event,Bussey Mouse Operant Mode 2 x 1 x low,,7,4,Position,2.0,Image 35,34,CoordX,122,CoordY,189,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1515.558,973,1,Condition Event,Image Touched,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1515.558,974,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,2.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1515.558,975,64,Play Audio Tone for Duration,(AUDIO),audio,7,3,correct tone,1.0,Intensity,100,Duration,500,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1515.558,976,29,Timer Event,Post_Reward_Tone_Delay_Timer,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1515.558,977,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1515.71,978,31,Touch Up Event,Bussey Mouse Operant Mode 2 x 1 x low,,8,4,Position,2.0,Image 1,0,CoordX,122,CoordY,189,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1516.558,979,1,Condition Event,Post Reward Tone Delay,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1516.558,980,16,Variable Event,Feeder_Pulse_Time,,8,1,Value,840.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1516.558,981,7,Pulse Output Event,Feeder #1,,8,1,Duration,0.84,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1516.558,982,3,Output On Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1516.558,983,16,Variable Event,Correct_Counter,,8,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1516.558,984,16,Variable Event,Feeder_Pulse_Time,,8,1,Value,280.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1516.558,985,16,Variable Event,First_Trial,,8,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1516.558,986,29,Timer Event,Post_Reward_Tone_Delay_Timer,,8,1,Value,1.001,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1516.558,987,29,Timer Event,Post_Reward_Tone_Delay_Timer,,8,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1516.558,988,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1516.559,989,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1516.559,990,16,Variable Event,Correct_Grid_Position,,2,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1516.559,991,17,List Change - Set,Grid_Position,,2,2,Index,1.0,Value,1,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1516.559,992,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1516.57,993,1,Condition Event,Incorrect Left,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1516.57,994,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1516.57,995,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1516.57,996,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1516.57,997,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1516.57,998,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1518.015,999,39,Input Transition Off Event,FIRBeam #1,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1519.58,1000,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1519.58,1001,16,Variable Event,_Trial_Counter,,5,1,Value,21.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1519.58,1002,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1519.58,1003,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1519.58,1004,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,2.0,Image 20,19,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1519.58,1005,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1519.58,1006,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1519.58,1007,17,List Change - Set,Training_Images,,6,2,Index,36.0,Image 36,36,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1519.58,1008,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1549.581,1009,1,Condition Event,Image display time end,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1549.581,1010,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,2.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1549.581,1011,7,Pulse Output Event,Feeder #1,,7,1,Duration,0.28,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1549.581,1012,3,Output On Event,TrayLight #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1549.581,1013,16,Variable Event,First_Trial,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1549.581,1014,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1671.535,1015,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1671.634,1016,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1733.388,1017,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1733.427,1018,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1733.471,1019,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1733.721,1020,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1734.693,1021,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1735.049,1022,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1737.107,1023,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1737.402,1024,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1737.792,1025,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1738.031,1026,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1738.759,1027,38,Input Transition On Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1739.451,1028,39,Input Transition Off Event,FIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1739.583,1029,38,Input Transition On Event,BIRBeam #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1740.592,1030,38,Input Transition On Event,Tray #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1740.592,1031,1,Condition Event,Reward Collected Start ITI,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1740.592,1032,4,Output Off Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1740.592,1033,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1740.593,1034,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1740.593,1035,16,Variable Event,Correct_Grid_Position,,2,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1740.593,1036,17,List Change - Set,Grid_Position,,2,2,Index,8.0,Value,2,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1740.593,1037,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1740.593,1038,1,Condition Event,Incorrect Right,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1740.593,1039,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1740.593,1040,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1740.593,1041,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1740.593,1042,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1740.593,1043,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1743.594,1044,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1743.594,1045,16,Variable Event,_Trial_Counter,,5,1,Value,22.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1743.594,1046,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1743.594,1047,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1743.594,1048,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,1.0,Image 36,35,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1743.594,1049,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1743.594,1050,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1743.594,1051,17,List Change - Set,Training_Images,,6,2,Index,2.0,Image 2,2,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1743.594,1052,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1754.161,1053,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1755.382,1054,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1758.924,1055,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1766.52,1056,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1766.826,1057,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1766.907,1058,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1768.679,1059,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1768.745,1060,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1771.39,1061,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1772.743,1062,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1773.594,1063,1,Condition Event,Image display time end,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1773.594,1064,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Background,7,2,Position,1.0,Image 1,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1773.594,1065,7,Pulse Output Event,Feeder #1,,7,1,Duration,0.28,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1773.594,1066,3,Output On Event,TrayLight #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1773.594,1067,16,Variable Event,First_Trial,,7,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1773.594,1068,21,Group Change Event,Group Change,,7,1,New Group,8.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1773.595,1069,1,Condition Event,Reward Collected Start ITI,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1773.595,1070,4,Output Off Event,TrayLight #1,,8,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1773.595,1071,21,Group Change Event,Group Change,,8,1,New Group,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1773.596,1072,1,Condition Event,Set Image position,,2,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1773.596,1073,16,Variable Event,Correct_Grid_Position,,2,1,Value,2.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1773.596,1074,17,List Change - Set,Grid_Position,,2,2,Index,10.0,Value,2,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1773.596,1075,21,Group Change Event,Group Change,,2,1,New Group,3.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1773.596,1076,1,Condition Event,Incorrect Left,,3,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1773.596,1077,16,Variable Event,Incorrect_Grid_Position,,3,1,Value,1.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1773.596,1078,21,Group Change Event,Group Change,,3,1,New Group,4.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1773.596,1079,1,Condition Event,Start ITI,,4,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1773.596,1080,29,Timer Event,ITI_Timer,,4,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1773.596,1081,21,Group Change Event,Group Change,,4,1,New Group,5.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1776.597,1082,1,Condition Event,Increment Trial Counter,,5,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1776.597,1083,16,Variable Event,_Trial_Counter,,5,1,Value,23.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1776.597,1084,21,Group Change Event,Group Change,,5,1,New Group,6.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1776.597,1085,1,Condition Event,Display Image,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1776.597,1086,32,Display Image,Bussey Mouse Operant Mode 2 x 1 x low,Training_Images,6,2,Position,2.0,Image 2,1,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1776.597,1087,4,Output Off Event,TrayLight #1,,6,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1776.597,1088,29,Timer Event,Image_Timer,,6,1,Value,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1776.597,1089,17,List Change - Set,Training_Images,,6,2,Index,37.0,Image 37,37,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1776.597,1090,21,Group Change Event,Group Change,,6,1,New Group,7.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1784.545,1091,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1786.559,1092,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1790.424,1093,39,Input Transition Off Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1798.37,1094,38,Input Transition On Event,Tray #1,,7,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1800.003,1095,21,Group Change Event,Group Change,,7,1,New Group,9.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1800.003,1096,1,Condition Event,End of schedule,,9,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1800.003,1097,61,Group Maintain Event,Group Change,,9,1,New Group,9.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1800.003,1098,29,Timer Event,_Schedule_Timer,,9,1,Value,1800.004,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1800.003,1099,29,Timer Event,Image_Timer,,9,1,Value,23.407,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1800.003,1100,29,Timer Event,ITI_Timer,,9,1,Value,26.407,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1800.003,1101,29,Timer Event,_Schedule_Timer,,9,1,Value,1800.003,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone
+36,1800.003,1102,9999,Schedule Shutdown Event,(SYSTEM),,9,0,,0.0,,0,,0,,0,,0,cog_Mouse Pairwise Initial Touch Training v3_RewardTone

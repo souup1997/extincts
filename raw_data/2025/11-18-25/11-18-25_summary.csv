@@ -1,0 +1,12 @@
+mouseID,SID,dbID,date_run,start_time,chamber,scheduleName,numTrialsCompleted,maxTrialLength,timeTrialCompleted,whoRan
+
+quagga1,71,Females_NOV25a,11/18/25,08:08:54,Chamber 13 [Env. 21],cog_Mouse Pairwise Initial Touch Training v3_RewardTone,19.0,1800,1800.0,rs
+quagga2,70,Females_NOV25a,11/18/25,08:07:58,Chamber 15 [Env. 23],cog_Mouse Pairwise Initial Touch Training v3_RewardTone,24.0,1800,1800.0,rs
+quagga3,75,Females_NOV25a,11/18/25,08:44:26,Chamber 13 [Env. 21],cog_Mouse Pairwise Initial Touch Training v3_RewardTone,23.0,1800,1800.007,rs
+quagga4,74,Females_NOV25a,11/18/25,08:43:23,Chamber 15 [Env. 23],cog_Mouse Pairwise Initial Touch Training v3_RewardTone,53.0,1800,1800.0,rs
+
+dodo1,24,Males_NOV25a,11/18/25,08:08:06,Chamber 5 [Env. 21],cog_Mouse Pairwise Initial Touch Training v3_RewardTone,9.0,1800,1800.01,lg
+dodo2,23,Males_NOV25a,11/18/25,08:07:18,Chamber 6 [Env. 22],cog_Mouse Pairwise Initial Touch Training v3_RewardTone,39.0,1800,1800.008,lg
+dodo3,26,Males_NOV25a,11/18/25,08:40:52,Chamber 5 [Env. 21],cog_Mouse Pairwise Initial Touch Training v3_RewardTone,35.0,1800,1800.0,lg
+dodo4,25,Males_NOV25a,11/18/25,08:40:13,Chamber 6 [Env. 22],cog_Mouse Pairwise Initial Touch Training v3_RewardTone,46.0,1800,1800.0,lg
+

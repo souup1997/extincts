@@ -1,0 +1,9 @@
+mouseID,SID,dbID,date_run,start_time,chamber,scheduleName,numTrialsCompleted,maxTrialLength,timeTrialCompleted,whoRan
+quagga1,60,Females_NOV25a,11/17/25,08:06:32,Chamber 13 [Env. 21],Day 0,0.0,1800,1800.0,lg
+quagga2,61,Females_NOV25a,11/17/25,08:06:32,Chamber 15 [Env. 23],Day 0,0.0,1800,1800.004,lg
+quagga4,64,Females_NOV25a,11/17/25,08:50:45,Chamber 15 [Env. 23],Day 0,0.0,1800,1800.0,th
+quagga3,65,Females_NOV25a,11/17/25,08:50:45,Chamber 13 [Env. 21],Day 0,0.0,1800,1800.005,th
+dodo2,19,Males_NOV25a,11/17/25,08:09:39,Chamber 6 [Env. 22],Day 0,0.0,1800,1800.0,lg
+dodo1,20,Males_NOV25a,11/17/25,08:09:39,Chamber 5 [Env. 21],Day 0,0.0,1800,1800.0,lg
+dodo4,21,Males_NOV25a,11/17/25,08:43:23,Chamber 6 [Env. 22],Day 0,0.0,1800,1800.003,lg
+dodo3,22,Males_NOV25a,11/17/25,08:43:23,Chamber 5 [Env. 21],Day 0,0.0,1800,1800.0,lg
