@@ -18,7 +18,7 @@ CSVfolder = os.path.normpath(os.path.join(os.path.dirname(os.path.realpath(__nam
 
 mouseList = ['dodo', 'quagga']
 yearDir = '2026'
-dateList = ['01-16-26']
+dateList = ['01-20-26']
 
 
 for dateDir in dateList:
