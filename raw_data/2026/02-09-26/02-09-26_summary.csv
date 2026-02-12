@@ -1,0 +1,9 @@
+mouseID,SID,dbID,date_run,start_time,chamber,scheduleName,numTrialsCompleted,maxTrialLength,timeTrialCompleted,whoRan
+dodo1,156,Males_FEB26a,02/09/26,08:16:59,Chamber 5 [Env. 21],cog_Mouse Pairwise Punish Incorrect Training short ITI_RewardTone_AND_Punish,200.0,3600,1336.876,av
+dodo2,155,Males_FEB26a,02/09/26,08:16:56,Chamber 6 [Env. 22],cog_100-0 no correction trial_RewardTone_AND_Punish,250.0,7200,2628.663,av
+dodo3,165,Males_FEB26a,02/09/26,09:05:55,Chamber 5 [Env. 21],cog_100-0 no correction trial_RewardTone_AND_Punish,250.0,7200,1496.441,av
+dodo4,164,Males_FEB26a,02/09/26,09:05:55,Chamber 6 [Env. 22],cog_100-0 no correction trial_RewardTone_AND_Punish,250.0,7200,1574.172,lg
+quagga1,167,Females_FEB26a,02/09/26,08:09:31,Chamber 13 [Env. 21],cog_Mouse Pairwise Punish Incorrect Training short ITI_RewardTone_AND_Punish,200.0,3600,1908.574,ra
+quagga2,166,Females_FEB26a,02/09/26,08:09:30,Chamber 15 [Env. 23],cog_100-0 no correction trial_RewardTone_AND_Punish,250.0,7200,1954.938,ra
+quagga3,181,Females_FEB26a,02/09/26,08:59:43,Chamber 13 [Env. 21],cog_100-0 no correction trial_RewardTone_AND_Punish,250.0,7200,2137.804,ra
+quagga4,180,Females_FEB26a,02/09/26,08:59:42,Chamber 15 [Env. 23],cog_100-0 no correction trial_RewardTone_AND_Punish,250.0,7200,1632.967,ra

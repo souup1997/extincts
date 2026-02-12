@@ -1,0 +1,9 @@
+mouseID,SID,dbID,date_run,start_time,chamber,scheduleName,numTrialsCompleted,maxTrialLength,timeTrialCompleted,whoRan
+dodo1,248,Males_FEB26a,02/12/26,08:11:37,Chamber 5 [Env. 21],cog_100-0 no correction trial_RewardTone_AND_Punish,250.0,7200,2130.027,lg
+dodo2,247,Males_FEB26a,02/12/26,08:11:37,Chamber 6 [Env. 22],cog_100-0 no correction trial_RewardTone_AND_Punish,250.0,7200,1783.767,lg
+dodo3,254,Males_FEB26a,02/12/26,08:51:31,Chamber 5 [Env. 21],cog_100-0 no correction trial_RewardTone_AND_Punish,250.0,7200,1658.346,th
+dodo4,251,Males_FEB26a,02/12/26,08:46:45,Chamber 6 [Env. 22],cog_100-0 no correction trial_RewardTone_AND_Punish,250.0,7200,1436.039,th
+quagga1,269,Females_FEB26a,02/12/26,08:08:12,Chamber 13 [Env. 21],cog_100-0 no correction trial_RewardTone_AND_Punish,250.0,7200,2721.158,sm
+quagga2,270,Females_FEB26a,02/12/26,08:09:14,Chamber 15 [Env. 23],cog_100-0 no correction trial_RewardTone_AND_Punish,250.0,7200,1756.587,sm
+quagga3,280,Females_FEB26a,02/12/26,08:57:09,Chamber 13 [Env. 21],cog_100-0 no correction trial_RewardTone_AND_Punish,250.0,7200,1968.298,sm
+quagga4,275,Females_FEB26a,02/12/26,08:43:13,Chamber 15 [Env. 23],cog_100-0 no correction trial_RewardTone_AND_Punish,250.0,7200,1667.159,sm

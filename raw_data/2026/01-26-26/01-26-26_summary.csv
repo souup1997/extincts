@@ -1,0 +1,9 @@
+mouseID,SID,dbID,date_run,start_time,chamber,scheduleName,numTrialsCompleted,maxTrialLength,timeTrialCompleted,whoRan
+dodo1,126,Males_JAN26a,01/26/26,08:46:15,Chamber 5 [Env. 21],cog_Mouse Pairwise Must Touch Training v3_RewardTone,315.0,1800,1800.0,ra
+dodo2,123,Males_JAN26a,01/26/26,08:44:47,Chamber 6 [Env. 22],cog_Mouse Pairwise Must Initiate Training v3 shortITI_RewardTone,293.0,1800,1800.0,av
+dodo3,129,Males_JAN26a,01/26/26,09:36:05,Chamber 5 [Env. 21],cog_Mouse Pairwise Must Touch Training v3_RewardTone,306.0,1800,1800.0,av
+dodo4,130,Males_JAN26a,01/26/26,09:36:05,Chamber 6 [Env. 22],cog_Mouse Pairwise Must Initiate Training v3 shortITI_RewardTone,286.0,1800,1800.01,ra
+quagga1,170,Females_JAN26a,01/26/26,08:32:15,Chamber 13 [Env. 21],cog_Mouse Pairwise Must Touch Training v3_RewardTone,289.0,1800,1800.0,ra
+quagga2,173,Females_JAN26a,01/26/26,08:33:45,Chamber 15 [Env. 23],cog_Mouse Pairwise Must Initiate Training v3 shortITI_RewardTone,274.0,1800,1800.0,av
+quagga3,178,Females_JAN26a,01/26/26,09:21:58,Chamber 13 [Env. 21],cog_Mouse Pairwise Must Initiate Training v3 shortITI_RewardTone,310.0,1800,1800.0,ra
+quagga4,179,Females_JAN26a,01/26/26,09:23:47,Chamber 15 [Env. 23],cog_Mouse Pairwise Must Initiate Training v3 shortITI_RewardTone,273.0,1800,1800.002,ra

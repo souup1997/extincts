@@ -3,5 +3,7 @@ dodo1,1,Males_JAN26a,01/06/26,08:03:28,Chamber 5 [Env. 21],cog_Mouse Pairwise In
 dodo2,2,Males_JAN26a,01/06/26,08:03:29,Chamber 6 [Env. 22],cog_Mouse Pairwise Must Touch Training v3_RewardTone,264.0,1800,1800.007,lg
 dodo3,3,Males_JAN26a,01/06/26,08:37:37,Chamber 5 [Env. 21],cog_Mouse Pairwise Initial Touch Training v3_RewardTone,242.0,1800,1800.009,lg
 dodo4,4,Males_JAN26a,01/06/26,08:37:37,Chamber 6 [Env. 22],cog_Mouse Pairwise Must Touch Training v3_RewardTone,211.0,1800,1800.0,lg
+quagga1,3,Females_JAN26a,01/06/26,08:05:41,Chamber 13 [Env. 21],cog_Mouse Pairwise Initial Touch Training v3_RewardTone,178.0,1800,1800.0,lg
+quagga2,4,Females_JAN26a,01/06/26,08:05:41,Chamber 15 [Env. 23],cog_Mouse Pairwise Must Touch Training v3_RewardTone,179.0,1800,1800.0,lg
 quagga3,6,Females_JAN26a,01/06/26,08:41:53,Chamber 13 [Env. 21],cog_Mouse Pairwise Must Touch Training v3_RewardTone,301.0,1800,1800.001,lg
 quagga4,7,Females_JAN26a,01/06/26,08:41:53,Chamber 15 [Env. 23],cog_Mouse Pairwise Must Touch Training v3_RewardTone,241.0,1800,1800.0,lg
